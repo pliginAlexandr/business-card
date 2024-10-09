@@ -22,7 +22,7 @@
 .logo__container {
   width: 200px;
   height: 200px;
-  background-image: url(/images/logo.jpeg);
+  background-image: url(../images/logo.jpeg);
   object-fit: contain;
 }
 
