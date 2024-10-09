@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.content {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.header {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  height: 200px;
+  align-items: center;
+}
+
+.logo__container {
+  width: 200px;
+  height: 200px;
+  background-image: url(/images/logo.jpeg);
+  object-fit: contain;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.organisation__name {
+  min-width: 600px;
+}
+
+.header__paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 0.8em;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.main {
+  border-top: 12px double black;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 180px;
+  background-color: #e6e6e6;
+}
+.paragraph__list {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 2em;
+  margin-left: 20px;
+}
+
+.bold__list {
+  font-weight: bold;
+}
+
